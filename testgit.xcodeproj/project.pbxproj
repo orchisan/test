@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6393D12B1C47F33C00772B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D12A1C47F33C00772B80 /* main.m */; };
+		6393D1351C47F94000772B80 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D1321C47F94000772B80 /* Slant6.m */; };
+		6393D1361C47F94000772B80 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D1341C47F94000772B80 /* Tire.m */; };
+		6393D13D1C47F94800772B80 /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D1381C47F94800772B80 /* AllWeatherRadial.m */; };
+		6393D13E1C47F94800772B80 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D13A1C47F94800772B80 /* Car.m */; };
+		6393D13F1C47F94800772B80 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393D13C1C47F94800772B80 /* Engine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		6393D1271C47F33C00772B80 /* testgit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testgit; sourceTree = BUILT_PRODUCTS_DIR; };
 		6393D12A1C47F33C00772B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6393D1311C47F94000772B80 /* Slant6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		6393D1321C47F94000772B80 /* Slant6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
+		6393D1331C47F94000772B80 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		6393D1341C47F94000772B80 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		6393D1371C47F94800772B80 /* AllWeatherRadial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllWeatherRadial.h; sourceTree = "<group>"; };
+		6393D1381C47F94800772B80 /* AllWeatherRadial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWeatherRadial.m; sourceTree = "<group>"; };
+		6393D1391C47F94800772B80 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		6393D13A1C47F94800772B80 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		6393D13B1C47F94800772B80 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		6393D13C1C47F94800772B80 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,16 @@
 		6393D1291C47F33C00772B80 /* testgit */ = {
 			isa = PBXGroup;
 			children = (
+				6393D1371C47F94800772B80 /* AllWeatherRadial.h */,
+				6393D1381C47F94800772B80 /* AllWeatherRadial.m */,
+				6393D1391C47F94800772B80 /* Car.h */,
+				6393D13A1C47F94800772B80 /* Car.m */,
+				6393D13B1C47F94800772B80 /* Engine.h */,
+				6393D13C1C47F94800772B80 /* Engine.m */,
+				6393D1311C47F94000772B80 /* Slant6.h */,
+				6393D1321C47F94000772B80 /* Slant6.m */,
+				6393D1331C47F94000772B80 /* Tire.h */,
+				6393D1341C47F94000772B80 /* Tire.m */,
 				6393D12A1C47F33C00772B80 /* main.m */,
 			);
 			path = testgit;
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6393D13E1C47F94800772B80 /* Car.m in Sources */,
 				6393D12B1C47F33C00772B80 /* main.m in Sources */,
+				6393D1361C47F94000772B80 /* Tire.m in Sources */,
+				6393D1351C47F94000772B80 /* Slant6.m in Sources */,
+				6393D13D1C47F94800772B80 /* AllWeatherRadial.m in Sources */,
+				6393D13F1C47F94800772B80 /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +267,7 @@
 				6393D1301C47F33C00772B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
